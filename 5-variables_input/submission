@@ -1,0 +1,8 @@
+from random import randint #imports random #
+ran = randint(1, 10) #creates a random #
+print("Can you guess the number? Give it a try!")
+ui = int(input("Pick a number between 1 and 10: ")) #gets the user input
+if ui == ran: #sees if the user input is equal to the random number
+    print("you did it!") #prints this if it is
+else:
+    print("Sorry, thats not correct. The answer was " + str(ran)) #prints this if it isnt
