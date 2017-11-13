@@ -1,0 +1,16 @@
+# There are two syntax errors and one logical error in this code
+# The output should be a large spiral
+import turtle #syntax (turtle misspelled)
+
+
+window = turtle.Screen()
+tur = turtle.Turtle()
+
+tur.speed(0)
+
+speed = 0
+
+for _ in range(1, 300):
+    speed = speed + 0.1 #A(needed to be in the for loop) faster way to write an addition equation like this is: speed += 0.1
+    tur.forward(speed)
+    tur.left(20) #syntax (not goleft, but left)
