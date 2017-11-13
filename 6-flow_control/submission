@@ -1,0 +1,13 @@
+password = 1234 #what the password is
+guess = 0
+help = 0
+while(guess != password):
+    guess = int(input("Enter your integer password: ")) #password input
+    if guess != password:
+        if help < 3:
+            print("Try again!")
+            help = help + 1
+        elif help > 2:
+            print("Hint: Not a good password to put on your luggage (or air shield)") #hint
+    if guess == password:
+        print("Access Granted")
