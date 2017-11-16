@@ -1,0 +1,53 @@
+from turtle import * # first challenge
+speed(0)
+for x in range(0, 4):
+    left(90)
+    forward(50)
+    left(90)
+    forward(50)
+    left(90)
+    forward(5)
+    left(90)
+    forward(45)
+    rt(90)
+    fd(40)
+    rt(90)
+    fd(45)
+    lt(90)
+    fd(5)
+    lt(90)
+    fd(50)
+    lt(90)
+    
+from turtle import * #Second Challenge
+speed(0)
+for x in range(0, 99):
+    fd(100)
+    lt(99)
+    
+from turtle import * #Third Challenge
+speed(5)
+for x in range(0, 4):
+    for x in range(0, 4):
+        fd(25)
+        lt(90)
+        fd(25)
+        lt(90)
+        fd(25)
+        rt(90)
+    pu()
+    rt(90)
+    fd(25)
+    lt(90)
+    fd(25)
+    lt(90)
+    pd()
+
+from turtle import * #Fourth Challenge
+speed(0)
+for x in range(0, 10):
+    for x in range(0, 3):
+        lt(120)
+        fd(100)
+    lt(36)
+
